@@ -1,0 +1,27 @@
+{
+  "name": "shatstack",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Back to basics with the HTML-driven SHATstack: Serverless, HTML, Alpine.js, TailwindCSS",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && node scripts/build-index.js && cp pages/* dist && node scripts/inline-remote-css/cli.js",
+    "start": "serve pages",
+    "format": "prettier ./pages/* README.md scripts/* --write"
+  },
+  "keywords": [
+    "alpinejs",
+    "tailwindcss",
+    "jamstack",
+    "serverless",
+    "shatstack"
+  ],
+  "author": "Hugo Di Francesco",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "node-fetch": "^2.6.0",
+    "prettier": "^1.19.1",
+    "purgecss": "^2.1.0",
+    "serve": "^11.3.0"
+  }
+}
