@@ -79,24 +79,24 @@ function template(pages) {
     >
       <h2 class="text-xl font-semibold text-gray-900 mb-6">SHATstack</h2>
       <div class="text-xs text-gray-500 italic mb-6">Last update: <a
-        class="text-blue-300 hover:text-blue-600 hover:underline"
+        class="text-teal-300 hover:text-teal-600 hover:underline"
         href="${commit.url}"
       >${commit.text}</a>
       </div>
       <p class="mb-4 w-full leading-relaxed">${
         pkg.description.split(':')[0]
-      } by <a class="text-blue-500 hover:text-blue-800 hover:underline" href="https://codewithhugo.com/tags/alpinejs">Hugo</a></p>
+      } by <a class="text-teal-500 hover:text-teal-800 hover:underline" href="https://codewithhugo.com/tags/alpinejs">Hugo</a></p>
 
       <ul class="list-inside mb-8 w-full leading-relaxed">
         The wonderful SHATstack (subset of the JAMstack), is comprised of:
           <li class="list-disc w-full">Serverless</li>
           <li class="list-disc w-full">HTML</li>
           <li class="list-disc w-full"><a
-            href="https://github.com/alpinejs/alpine" class="text-blue-500 hover:text-blue-800 hover:underline"
+            href="https://github.com/alpinejs/alpine" class="text-teal-500 hover:text-teal-800 hover:underline"
             >Alpine.js
             </a>
           </li>
-          <li class="list-disc w-full"><a href="https://tailwindcss.com/" class="text-blue-500 hover:text-blue-800 hover:underline"
+          <li class="list-disc w-full"><a href="https://tailwindcss.com/" class="text-teal-500 hover:text-teal-800 hover:underline"
             >TailwindCSS
             </a>
           </li>
