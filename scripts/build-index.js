@@ -108,6 +108,18 @@ function template(pages) {
         <strong>How do I create a new page?</strong>
         Create a HTML file, load up Alpine.js and Tailwind CSS from CDN and get coding.
       </p>
+      <h3 class="w-full font-semibold text-gray-900" id="tools">Tools</h3>
+      <ul class="list-inside mb-8 w-full leading-relaxed">
+          <li class="list-disc w-full"><a
+            href="https://github.com/shatstack/stylenames" class="text-teal-500 hover:text-teal-800 hover:underline"
+            >@shat/stylenames
+            </a> - A simple JavaScript utility for conditionally joining inline styles together, think classNames but for inline-styles.
+          </li>
+          <li class="list-disc w-full"><a href="https://github.com/shatstack/inline-remote-assets" class="text-teal-500 hover:text-teal-800 hover:underline"
+            >inline-remote-assets
+            </a> - Improve load performance by inlining and optimising remote assets loaded through CDN
+          </li>
+      </ul>
     </div>
     <!--
     <script>
