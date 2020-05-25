@@ -91,3 +91,4 @@ typings/
 dist
 .tailwind-cache.css
 .inline-css-cache
+.remote-asset-cache

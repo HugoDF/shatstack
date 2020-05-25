@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Back to basics with the HTML-driven SHATstack: Serverless, HTML, Alpine.js, TailwindCSS",
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist && node scripts/build-index.js && cp pages/* dist && node scripts/inline-remote-css/cli.js",
+    "build": "rm -rf dist && mkdir -p dist && node scripts/build-index.js && cp pages/* dist && inline-remote-assets 'dist/**/*.html'",
     "start": "serve pages",
     "format": "prettier ./pages/* README.md scripts/* --write"
   },
@@ -19,6 +19,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
+    "inline-remote-assets": "^0.0.3",
     "node-fetch": "^2.6.0",
     "prettier": "^1.19.1",
     "purgecss": "^2.1.0",
