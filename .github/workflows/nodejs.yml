@@ -20,6 +20,7 @@ jobs:
     - name: yarn install and build 
       run: |
         yarn
+        yarn format
         yarn build
       env:
         CI: true

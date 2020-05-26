@@ -56,9 +56,7 @@ function template(pages) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="SHATstack - ${
-      pkg.description
-    }" />
+    <meta name="description" content="SHATstack - ${pkg.description}" />
     <title>SHATstack</title>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@1.x.x/dist/tailwind.min.css"
@@ -84,7 +82,7 @@ function template(pages) {
       >${commit.text}</a>
       </div>
       <p class="mb-4 w-full leading-relaxed">${
-        pkg.description.split(':')[0]
+        pkg.description.split(":")[0]
       } by <a class="text-teal-500 hover:text-teal-800 hover:underline" href="https://codewithhugo.com/tags/alpinejs">Hugo</a></p>
 
       <ul class="list-inside mb-8 w-full leading-relaxed">

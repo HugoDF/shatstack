@@ -7,7 +7,6 @@ The wonderful, HTML-driven SHATstack (subset of the JAMstack), includes:
 - Alpine.js
 - TailwindCSS
 
-
 SHATStack, a Dumpster fire of a stack for people who have had enough of acronyms
 
 It's back to basics everyone:
@@ -15,7 +14,6 @@ It's back to basics everyone:
 How do I create a new page? Create a HTML, load up Alpine.js and Tailwind CSS from CDN and get coding.
 
 Find the examples in the [pages](./pages) directory.
-
 
 Alternative way to create a new page: use `node ./scripts/new.js your-page-name` in this repo 😂. It'll copy [pages/example-template.html](./pages/example-template.html) to `pages/your-page-name.html`.
 
