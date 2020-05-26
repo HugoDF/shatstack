@@ -22,7 +22,6 @@
     "inline-remote-assets": "^0.4.0",
     "node-fetch": "^2.6.0",
     "prettier": "^1.19.1",
-    "purgecss": "^2.2.1",
     "serve": "^11.3.1"
   }
 }
