@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "inline-remote-assets": "^0.6.1",
+    "inline-remote-assets": "^0.7.0",
     "node-fetch": "^2.6.1",
     "prettier": "^2.1.2",
     "serve": "^11.3.2"
