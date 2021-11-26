@@ -21,7 +21,7 @@
   "devDependencies": {
     "inline-remote-assets": "^0.7.0",
     "node-fetch": "^2.6.1",
-    "prettier": "^2.4.0",
+    "prettier": "^2.5.0",
     "serve": "^13.0.2"
   }
 }
