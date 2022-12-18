@@ -22,6 +22,6 @@
     "inline-remote-assets": "^0.7.0",
     "node-fetch": "^3.3.0",
     "prettier": "^2.8.1",
-    "serve": "^13.0.2"
+    "serve": "^14.1.2"
   }
 }
